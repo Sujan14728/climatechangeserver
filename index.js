@@ -1,5 +1,6 @@
 const express = require("express");
 const mongoose = require("mongoose");
+const cors = require("cors");
 const app = express();
 const PORT = 5000;
 const objectRouter = require("./routes/object.routes");
@@ -15,7 +16,11 @@ mongoose
   .then(console.log("database connected"));
 const db = mongoose.connection;
 db.on("error", console.error.bind(console, "MongoDB connection error"));
-
+app.use(
+  cors({
+    origin: "*",
+  })
+);
 app.get("/", (req, res) => {
   res.json({
     status: "okay",
