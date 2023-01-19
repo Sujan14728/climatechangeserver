@@ -80,14 +80,8 @@ const api = [
     image:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCBnA9UIRqgca4lldc0cwey4mNnXSFKTFFVkWPIGhk&s",
     name: "Lights",
-    description: {
-      id: 9,
-      image:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCBnA9UIRqgca4lldc0cwey4mNnXSFKTFFVkWPIGhk&s",
-      name: "Garbage",
-      description:
-        "Lights contribute to a significant percentage of electricity use in your house. Replacing the incandescent light bulbs in your five most frequently used light fixtures with energy-efficient CFLs (compact fluorescent lamps) can significantly reduce home electricity use and save you money while simultaneously making a positive impact on climate change. If every household in the United States exchanged five light bulbs for CFLs, it would reduce greenhouse gas emissions as much as removing 10 million cars from the roads.",
-    },
+    description:
+      "Lights contribute to a significant percentage of electricity use in your house. Replacing the incandescent light bulbs in your five most frequently used light fixtures with energy-efficient CFLs (compact fluorescent lamps) can significantly reduce home electricity use and save you money while simultaneously making a positive impact on climate change. If every household in the United States exchanged five light bulbs for CFLs, it would reduce greenhouse gas emissions as much as removing 10 million cars from the roads.",
   },
 ];
 
