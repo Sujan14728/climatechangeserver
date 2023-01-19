@@ -4,7 +4,7 @@ const router = express.Router();
 
 const api = [
   {
-    id: 1,
+    id: 10,
     image:
       "https://images.unsplash.com/photo-1591704951890-0862b2e98acb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1281&q=80",
     name: "Glass bottles",
@@ -193,7 +193,7 @@ const api = [
       "This involves processing materials such as paper, plastic, metal, and glass so they can be used to make new products.",
   },
   {
-    id: 10,
+    id: 1,
     image:
       "https://images.unsplash.com/photo-1617303331806-3d6b58e03241?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
     name: "Plastic Product",
