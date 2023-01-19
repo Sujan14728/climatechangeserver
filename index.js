@@ -2,6 +2,7 @@ const express = require("express");
 const mongoose = require("mongoose");
 const app = express();
 const PORT = 5000;
+const objectRouter = require("./routes/object.routes");
 
 const mongoDB = "mongodb://admin:admin123@95.216.141.221:12345/admin";
 
@@ -20,6 +21,8 @@ app.get("/", (req, res) => {
     status: "okay",
   });
 });
+
+app.use("/api", objectRouter);
 
 app.listen(PORT, () => {
   console.log(`server listening at port: http://localhost:${PORT}`);
