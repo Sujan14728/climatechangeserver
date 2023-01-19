@@ -17,7 +17,7 @@ const api = [
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCBnA9UIRqgca4lldc0cwey4mNnXSFKTFFVkWPIGhk&s",
     name: "Refrigerator",
     description:
-      "Dolore ea fugiat irure consectetur non irure anim qui in reprehenderit quis. Ullamco excepteur dolore non labore laborum est cupidatat ipsum. Enim ex id fugiat anim minim excepteur labore Lorem ut. Esse qui officia commodo nostrud esse aliquip nostrud proident. Enim commodo do sit excepteur elit commodo. Ipsum incididunt ipsum exercitation ea consequat duis excepteur cillum. Nulla consequat duis exercitation sunt do esse elit ullamco.",
+      "With countries and companies under pressure to slash their contribution to climate change, the cooling industry is facing a radical overhaul to the way it produces and disposes of refrigerants. Over the past three decades, governments around the world have pledged to crack down on the potent climate-warming chemicals used as coolants, while companies have started seeking natural, less polluting alternatives. But environmental campaigners say changes must be made much faster if international climate goals are to be met.",
   },
   {
     id: 3,
@@ -71,9 +71,23 @@ const api = [
     id: 9,
     image:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCBnA9UIRqgca4lldc0cwey4mNnXSFKTFFVkWPIGhk&s",
-    name: "Fan",
+    name: "Lights",
     description:
-      "Dolore ea fugiat irure consectetur non irure anim qui in reprehenderit quis. Ullamco excepteur dolore non labore laborum est cupidatat ipsum. Enim ex id fugiat anim minim excepteur labore Lorem ut. Esse qui officia commodo nostrud esse aliquip nostrud proident. Enim commodo do sit excepteur elit commodo. Ipsum incididunt ipsum exercitation ea consequat duis excepteur cillum. Nulla consequat duis exercitation sunt do esse elit ullamco.",
+      "Lights contribute to a significant percentage of electricity use in your house. Replacing the incandescent light bulbs in your five most frequently used light fixtures with energy-efficient CFLs (compact fluorescent lamps) can significantly reduce home electricity use and save you money while simultaneously making a positive impact on climate change. If every household in the United States exchanged five light bulbs for CFLs, it would reduce greenhouse gas emissions as much as removing 10 million cars from the roads.",
+  },
+  {
+    id: 10,
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCBnA9UIRqgca4lldc0cwey4mNnXSFKTFFVkWPIGhk&s",
+    name: "Lights",
+    description: {
+      id: 9,
+      image:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCBnA9UIRqgca4lldc0cwey4mNnXSFKTFFVkWPIGhk&s",
+      name: "Garbage",
+      description:
+        "Lights contribute to a significant percentage of electricity use in your house. Replacing the incandescent light bulbs in your five most frequently used light fixtures with energy-efficient CFLs (compact fluorescent lamps) can significantly reduce home electricity use and save you money while simultaneously making a positive impact on climate change. If every household in the United States exchanged five light bulbs for CFLs, it would reduce greenhouse gas emissions as much as removing 10 million cars from the roads.",
+    },
   },
 ];
 
