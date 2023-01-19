@@ -17,7 +17,7 @@ db.on("error", console.error.bind(console, "MongoDB connection error"));
 
 app.get("/", (req, res) => {
   res.json({
-    status: "ok",
+    status: "okay",
   });
 });
 
